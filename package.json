@@ -9,7 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/bootstrap-notify": "^3.1.36",
+    "axios": "^1.0.0",
+    "bootstrap": "^5.2.2",
+    "mongoose": "^6.6.5",
     "next": "12.3.1",
+    "next-connect": "^0.13.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },

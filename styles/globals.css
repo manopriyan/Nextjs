@@ -24,3 +24,42 @@ a {
     background: black;
   }
 }
+
+.header{
+  background-color: black;
+  color:white;
+}
+.body{
+  min-height: 80vh !important;
+}
+
+.footer {
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+p{
+  padding:0px !important;
+  margin: 0px !important;
+}
+
+.form-control {
+
+  box-shadow: none !important;
+  border: 2px solid gray !important;
+  margin-top: 10px !important;
+
+}
+
+.boxshadow {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.flex{
+  display: flex !important;
+}
+
+.header h3 a{
+  color: white !important;
+  text-decoration: none !important;
+}
