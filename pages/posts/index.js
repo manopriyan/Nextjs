@@ -10,7 +10,11 @@ export default function index({postsdata}) {
 
   const postItems = postsdata.map((post)=> {
 
-    return <Col key={post._id} sm="4"><PostItem post = {post}> </PostItem></col>
+      return (
+        <Col sm="4" key={`${post._id}+${index}`}>
+        <PostItem post = {post}> </PostItem>
+        </Col>
+      )
   })
   return (
     <div>
